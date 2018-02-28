@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Code/exam/main.cpp
+iostream
+-
+unordered_map
+-
+list
+-
+iterator
+-
+algorithm
+-
+stdexcept
+-
+queue
+-
+
