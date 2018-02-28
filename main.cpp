@@ -2,15 +2,11 @@
 #include <unordered_map>
 #include <list>
 #include <iterator>
-#include <algorithm>
 #include <stdexcept>
-#include <queue>
 
 template<typename T>
 class Cache {
 private:
-    int pr = 0;
-    int min_time = 0;
     size_t size;
     std::list<std::pair<std::string,T>> elements;
     std::unordered_map<std::string, typename std::list<std::pair<std::string,T>>::iterator> keys;

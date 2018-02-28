@@ -1,4 +1,4 @@
-C:\Users\sasha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\181.3870.21\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Code\exam
+C:\Users\sasha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\181.3870.21\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Code\Cache
 -- The C compiler identification is GNU 7.2.0
 -- The CXX compiler identification is GNU 7.2.0
 -- Check for working C compiler: C:/MinGW/bin/gcc.exe
@@ -15,4 +15,4 @@ C:\Users\sasha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\181.3870.21\bin\c
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Code/exam/cmake-build-debug
+-- Build files have been written to: C:/Code/Cache/cmake-build-debug

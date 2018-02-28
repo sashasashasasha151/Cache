@@ -53,45 +53,45 @@ RM = C:\Users\sasha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\181.3870.21\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Code\exam
+CMAKE_SOURCE_DIR = C:\Code\Cache
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Code\exam\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Code\Cache\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/exam.dir
+# Target rules for target CMakeFiles/Cache.dir
 
 # All Build rule for target.
-CMakeFiles/exam.dir/all:
-	$(MAKE) -f CMakeFiles\exam.dir\build.make CMakeFiles/exam.dir/depend
-	$(MAKE) -f CMakeFiles\exam.dir\build.make CMakeFiles/exam.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Code\exam\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target exam"
-.PHONY : CMakeFiles/exam.dir/all
+CMakeFiles/Cache.dir/all:
+	$(MAKE) -f CMakeFiles\Cache.dir\build.make CMakeFiles/Cache.dir/depend
+	$(MAKE) -f CMakeFiles\Cache.dir\build.make CMakeFiles/Cache.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Code\Cache\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Cache"
+.PHONY : CMakeFiles/Cache.dir/all
 
 # Include target in all.
-all: CMakeFiles/exam.dir/all
+all: CMakeFiles/Cache.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/exam.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Code\exam\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exam.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Code\exam\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/exam.dir/rule
+CMakeFiles/Cache.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Code\Cache\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Cache.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Code\Cache\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Cache.dir/rule
 
 # Convenience name for target.
-exam: CMakeFiles/exam.dir/rule
+Cache: CMakeFiles/Cache.dir/rule
 
-.PHONY : exam
-
-# clean rule for target.
-CMakeFiles/exam.dir/clean:
-	$(MAKE) -f CMakeFiles\exam.dir\build.make CMakeFiles/exam.dir/clean
-.PHONY : CMakeFiles/exam.dir/clean
+.PHONY : Cache
 
 # clean rule for target.
-clean: CMakeFiles/exam.dir/clean
+CMakeFiles/Cache.dir/clean:
+	$(MAKE) -f CMakeFiles\Cache.dir\build.make CMakeFiles/Cache.dir/clean
+.PHONY : CMakeFiles/Cache.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Cache.dir/clean
 
 .PHONY : clean
 
