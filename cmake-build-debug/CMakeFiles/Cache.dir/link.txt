@@ -1,3 +1,0 @@
-C:\Users\sasha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\181.3870.21\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\Cache.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Cache.dir/objects.a @CMakeFiles\Cache.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Cache.dir/objects.a -Wl,--no-whole-archive  -o Cache.exe -Wl,--out-implib,libCache.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Cache.dir\linklibs.rsp
