@@ -1,4 +1,7 @@
-```
+# LFU cache
+Simple realization of LFU cache with O(1) time complexity for all operations
+### Cache semantics
+```c++
 template<typename T>
 class Cache {
     Cache(size_t n)
